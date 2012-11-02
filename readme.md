@@ -19,3 +19,4 @@
 
 ### 演示 ###
 <http://moe24.co.de/surface-cutting/>
+![预览图](https://raw.github.com/thousandmoe/surface-cutting/c8df8e4eb05af6314c60d9682837c52f0c618db9/preview.png)
