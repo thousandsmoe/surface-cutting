@@ -7,8 +7,8 @@
 		Released under the GPL Licenses.
 	*/
 	@error_reporting(0);	//屏蔽错误报告
-	header('Content-Type: text/html; charset=utf-8');	//用于治疗某些国外空间乱码的坏毛病。PH(php & html)合璧，疗效快=w=
-	set_time_limit(0);	//防止传大图的时候到达限制时间而退出，话说到达限制时间那是有多大的图啊=v=
+	@header('Content-Type: text/html; charset=utf-8');	//用于治疗某些国外空间乱码的坏毛病。PH(php & html)合璧，疗效快=w=
+	@set_time_limit(0);	//防止传大图的时候到达限制时间而退出，话说到达限制时间那是有多大的图啊=v=
 	
 	//图片处理流程
 	if(isset($_FILES["file"])){
